@@ -13,7 +13,7 @@ function Room(){
 <div>
 
     <h1>React Bulb Switch</h1>
-           {lit?<img src={ON} style={{marginTop: 50}}/>:<img src={OFF} style={{marginTop: 50}}/>}
+           {lit?<img src={ON} alt="Bulb ON" style={{marginTop: 50}}/>:<img src={OFF} alt="Bulb OFF" style={{marginTop: 50}}/>}
            <br />
             <button onClick={()=>{setLit(true)}}>ON</button>
             <button onClick={()=>{setLit(false)}}>OFF</button>
