@@ -1,0 +1,15 @@
+.room{
+    height: 100vh;
+text-align: center;
+
+}
+
+.lit{
+    background-color: aliceblue;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
